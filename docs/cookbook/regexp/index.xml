@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>正则表达式 on 潘文斌的文档馆</title><link>/docs/cookbook/regexp/</link><description>Recent content in 正则表达式 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0800</lastBuildDate><atom:link href="/docs/cookbook/regexp/index.xml" rel="self" type="application/rss+xml"/><item><title>常用正则</title><link>/docs/cookbook/regexp/%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99/</link><pubDate>Mon, 02 Dec 2024 00:00:00 +0800</pubDate><guid>/docs/cookbook/regexp/%E5%B8%B8%E7%94%A8%E6%AD%A3%E5%88%99/</guid><description>&lt;h2 id="手机号码">手机号码&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;pre tabindex="0">&lt;code class="language-regexp" data-lang="regexp">^1[3-9]\d{9}$&lt;/code>&lt;/pre>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="电子邮箱">电子邮箱&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;pre tabindex="0">&lt;code class="language-regexp" data-lang="regexp">^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$&lt;/code>&lt;/pre>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="身份证号码">身份证号码&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;pre tabindex="0">&lt;code class="language-regexp" data-lang="regexp">^\d{17}[\dXx]$&lt;/code>&lt;/pre>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="url">URL&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;pre tabindex="0">&lt;code class="language-regexp" data-lang="regexp">^https?://[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+(/[a-zA-Z0-9-./?%&amp;amp;=]*)?$&lt;/code>&lt;/pre>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="ipv4地址">IPv4地址&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;pre tabindex="0">&lt;code class="language-regexp" data-lang="regexp">^((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)$&lt;/code>&lt;/pre>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="ipv6地址">IPv6地址&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;pre tabindex="0">&lt;code class="language-regexp" data-lang="regexp">^([0-9a-fA-F]{1,4}:){7}([0-9a-fA-F]{1,4})$&lt;/code>&lt;/pre>
+ &lt;/figure>
+&lt;/div></description></item></channel></rss>

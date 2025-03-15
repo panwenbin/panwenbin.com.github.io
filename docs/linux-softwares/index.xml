@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux软件使用 on 潘文斌的文档馆</title><link>/docs/linux-softwares/</link><description>Recent content in Linux软件使用 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/linux-softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
+&lt;h2 id="lazygit">lazygit&lt;/h2>
+&lt;h2 id="mutt">mutt&lt;/h2>
+&lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>可以说是Linux下最强播放器，很多其他平台的播放器也是基于mpv的。&lt;/p>
+&lt;h2 id="开启硬件加速">开启硬件加速&lt;/h2>
+&lt;p>对于Intel核心显卡，配置文件&lt;code>~/.config/mpv/mpv.conf&lt;/code>中添加如下内容：&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 启用硬件解码&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">hwdec&lt;/span>&lt;span class="o">=&lt;/span>vaapi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 指定视频输出后端（可选尝试不同组合）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">vo&lt;/span>&lt;span class="o">=&lt;/span>gpu
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 可选：针对某些场景优化&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">profile&lt;/span>&lt;span class="o">=&lt;/span>gpu-hq&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div></description></item><item><title>NFS Server</title><link>/docs/linux-softwares/nfs-server/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/nfs-server/</guid><description>&lt;h2 id="安装">安装&lt;/h2>
+&lt;p>以debian12为例&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt-get update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get install nfs-kernel-server&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>创建一个共享目录&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mkdir -p /nfs/exports/shared&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div></description></item><item><title>UxPlay 开源AirPlay服务器</title><link>/docs/linux-softwares/uxplay-%E5%BC%80%E6%BA%90airplay%E6%9C%8D%E5%8A%A1%E5%99%A8/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/uxplay-%E5%BC%80%E6%BA%90airplay%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid><description>&lt;blockquote>
+&lt;p>&lt;a href="https://github.com/FDH2/UxPlay">UxPlay&lt;/a> 是一个开源的AirPlay Server. 通过它，可以将iOS/iPadOS设备的屏幕和声音投射到Linux, macOS(Intel芯片和M芯片), 和 Unix系统上，1.57版开始也支持Windows系统。&lt;/p>&lt;/blockquote>
+&lt;h2 id="使用体验">使用体验&lt;/h2>
+&lt;p>非常丝滑，清晰度也不错，延时还比较低，还支持硬件加速，整体性能非常出色。&lt;/p>
+&lt;h2 id="安装">安装&lt;/h2>
+&lt;p>以debian12为例，从源里面直接安装即可。&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo apt install uxplay&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>对于Intel和AMD的GPU(核显)，使用 VAAPI gstreamer 插件进行硬件解码。Intel测试下来使用核显延时会增加一些，AMD未测试。&lt;/p></description></item></channel></rss>

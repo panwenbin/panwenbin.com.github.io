@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac软件使用 on 潘文斌的文档馆</title><link>/docs/mac-softwares/</link><description>Recent content in Mac软件使用 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Tue, 17 Sep 2024 16:00:00 +0800</lastBuildDate><atom:link href="/docs/mac-softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>窗口管理</title><link>/docs/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</link><pubDate>Fri, 13 Sep 2024 21:15:00 +0800</pubDate><guid>/docs/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</guid><description>&lt;h2 id="原生窗口管理">原生窗口管理&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">红 - 关闭
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">黄 - 最小化
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">绿 - 最大化 悬停时可以出现左半屏和右半屏选项&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>总结：分屏只有左右分屏，没有上下分屏，没有四分屏
+更新：MacOS Sequoia已经支持多种分屏模式了，据说是微软专利到期了。&lt;/p>
+&lt;h2 id="rectangle">Rectangle&lt;/h2>
+&lt;p>开源免费的窗口管理工具，软件很小巧，功能很简单，侵入性最小。支持比较老的系统(macOS 10.11+)。&lt;br>
+常用快捷键：&lt;/p></description></item><item><title>鼠标设置</title><link>/docs/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>Mac上默认的鼠标设置是滚动方向与Windows相反的，这个设置可以在系统设置中调整。&lt;br>
+但是触控板的方向会一起改掉，所以需要用第三方工具来调整鼠标的滚动方向。&lt;/p>
+&lt;h2 id="scroll-reverser">scroll reverser&lt;/h2>
+&lt;p>可以单独设置鼠标和触控板的滚动方向，但是不支持触控板的手势。&lt;br>
+&lt;a href="https://pilotmoon.com/scrollreverser/">官网&lt;/a>&lt;/p></description></item><item><title>运行iOS App</title><link>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</link><pubDate>Sat, 14 Sep 2024 17:20:00 +0800</pubDate><guid>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</guid><description>&lt;blockquote>
+&lt;p>Mac上换了Apple Silicon处理器，同为Arm架构，所以理论上时可以运行iOS App的&lt;/p>&lt;/blockquote>
+&lt;h2 id="方案">方案&lt;/h2>
+&lt;ol>
+&lt;li>直接App Store下载&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>最省心，但是开发者适配的并不多&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>playcover&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>支持最完善，但是需要自己下载ipa&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>xcode&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>开发者调试用，不适合普通用户&lt;/li>
+&lt;/ul>
+&lt;h2 id="playcover">playcover&lt;/h2>
+&lt;p>我测试的是playcover 3.1.0, 运行原神的ipa是5.0版本，从playcover 3.0 开始，已经不需要修改SIP了。直接运行会在&amp;quot;开门&amp;quot;
+的瞬间闪退。经过搜索，加上几行hosts屏蔽一下就可以进了。
+参考：https://www.bilibili.com/video/BV1m841ePECt&lt;/p></description></item><item><title>运行Windows程序</title><link>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</link><pubDate>Tue, 17 Sep 2024 16:00:00 +0800</pubDate><guid>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</guid><description>&lt;blockquote>
+&lt;p>Mac上运行Windows程序，大概有三种方法&lt;br>
+一是启动转换 Boot Camp&lt;br>
+二是使用虚拟机&lt;br>
+三是使用Wine&lt;/p>&lt;/blockquote>
+&lt;h2 id="先说结论">先说结论&lt;/h2>
+&lt;p>Boot Camp 兼容性最好，但是不支持苹果芯片，只支持Intel芯片;&lt;br>
+Wine更轻量，更适合运行简单的小软件；&lt;br>
+虚拟机更重，占用内存和存储资源更多，适合运行较复杂的软件。&lt;br>
+其实直接远程连接Windows电脑，可能是最经济的方法，现在电脑价格已经很低。&lt;/p>
+&lt;h2 id="boot-camp">Boot Camp&lt;/h2>
+&lt;blockquote>
+&lt;p>这边暂不讨论，因为只支持老的Intel芯片苹果电脑。&lt;/p>&lt;/blockquote>
+&lt;h2 id="parallels-desktop">Parallels Desktop&lt;/h2>
+&lt;blockquote>
+&lt;p>售价RMB 498/年，可以试用14天。价格很高了，但是有不少买Mac送的2年激活码，100多元闲鱼可买。&lt;br>
+使用的微软授权的Arm版Windows，性能应该是不错的，兼容性还不清楚。&lt;/p></description></item></channel></rss>

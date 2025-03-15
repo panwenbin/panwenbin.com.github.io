@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>尝试把知识整理成文档 on 潘文斌的文档馆</title><link>/</link><description>Recent content in 尝试把知识整理成文档 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>窗口管理</title><link>/docs/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</link><pubDate>Fri, 13 Sep 2024 21:15:00 +0800</pubDate><guid>/docs/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</guid><description>&lt;h2 id="原生窗口管理">原生窗口管理&lt;/h2>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">红 - 关闭
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">黄 - 最小化
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">绿 - 最大化 悬停时可以出现左半屏和右半屏选项&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>总结：分屏只有左右分屏，没有上下分屏，没有四分屏
+更新：MacOS Sequoia已经支持多种分屏模式了，据说是微软专利到期了。&lt;/p>
+&lt;h2 id="rectangle">Rectangle&lt;/h2>
+&lt;p>开源免费的窗口管理工具，软件很小巧，功能很简单，侵入性最小。支持比较老的系统(macOS 10.11+)。&lt;br>
+常用快捷键：&lt;/p></description></item><item><title>鼠标设置</title><link>/docs/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>Mac上默认的鼠标设置是滚动方向与Windows相反的，这个设置可以在系统设置中调整。&lt;br>
+但是触控板的方向会一起改掉，所以需要用第三方工具来调整鼠标的滚动方向。&lt;/p>
+&lt;h2 id="scroll-reverser">scroll reverser&lt;/h2>
+&lt;p>可以单独设置鼠标和触控板的滚动方向，但是不支持触控板的手势。&lt;br>
+&lt;a href="https://pilotmoon.com/scrollreverser/">官网&lt;/a>&lt;/p></description></item><item><title>运行iOS App</title><link>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</link><pubDate>Sat, 14 Sep 2024 17:20:00 +0800</pubDate><guid>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</guid><description>&lt;blockquote>
+&lt;p>Mac上换了Apple Silicon处理器，同为Arm架构，所以理论上时可以运行iOS App的&lt;/p>&lt;/blockquote>
+&lt;h2 id="方案">方案&lt;/h2>
+&lt;ol>
+&lt;li>直接App Store下载&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>最省心，但是开发者适配的并不多&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>playcover&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>支持最完善，但是需要自己下载ipa&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>xcode&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>开发者调试用，不适合普通用户&lt;/li>
+&lt;/ul>
+&lt;h2 id="playcover">playcover&lt;/h2>
+&lt;p>我测试的是playcover 3.1.0, 运行原神的ipa是5.0版本，从playcover 3.0 开始，已经不需要修改SIP了。直接运行会在&amp;quot;开门&amp;quot;
+的瞬间闪退。经过搜索，加上几行hosts屏蔽一下就可以进了。
+参考：https://www.bilibili.com/video/BV1m841ePECt&lt;/p></description></item><item><title>运行Windows程序</title><link>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</link><pubDate>Tue, 17 Sep 2024 16:00:00 +0800</pubDate><guid>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</guid><description>&lt;blockquote>
+&lt;p>Mac上运行Windows程序，大概有三种方法&lt;br>
+一是启动转换 Boot Camp&lt;br>
+二是使用虚拟机&lt;br>
+三是使用Wine&lt;/p>&lt;/blockquote>
+&lt;h2 id="先说结论">先说结论&lt;/h2>
+&lt;p>Boot Camp 兼容性最好，但是不支持苹果芯片，只支持Intel芯片;&lt;br>
+Wine更轻量，更适合运行简单的小软件；&lt;br>
+虚拟机更重，占用内存和存储资源更多，适合运行较复杂的软件。&lt;br>
+其实直接远程连接Windows电脑，可能是最经济的方法，现在电脑价格已经很低。&lt;/p>
+&lt;h2 id="boot-camp">Boot Camp&lt;/h2>
+&lt;blockquote>
+&lt;p>这边暂不讨论，因为只支持老的Intel芯片苹果电脑。&lt;/p>&lt;/blockquote>
+&lt;h2 id="parallels-desktop">Parallels Desktop&lt;/h2>
+&lt;blockquote>
+&lt;p>售价RMB 498/年，可以试用14天。价格很高了，但是有不少买Mac送的2年激活码，100多元闲鱼可买。&lt;br>
+使用的微软授权的Arm版Windows，性能应该是不错的，兼容性还不清楚。&lt;/p></description></item><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description>You can use blog posts for announcing product updates and features.</description></item><item><title>Resources</title><link>/docs/resources/</link><pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate><guid>/docs/resources/</guid><description>&lt;p>Link to valuable, relevant resources.&lt;/p></description></item><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
+&lt;h2 id="lazygit">lazygit&lt;/h2>
+&lt;h2 id="mutt">mutt&lt;/h2>
+&lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>可以说是Linux下最强播放器，很多其他平台的播放器也是基于mpv的。&lt;/p>
+&lt;h2 id="开启硬件加速">开启硬件加速&lt;/h2>
+&lt;p>对于Intel核心显卡，配置文件&lt;code>~/.config/mpv/mpv.conf&lt;/code>中添加如下内容：&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 启用硬件解码&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">hwdec&lt;/span>&lt;span class="o">=&lt;/span>vaapi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 指定视频输出后端（可选尝试不同组合）&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">vo&lt;/span>&lt;span class="o">=&lt;/span>gpu
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 可选：针对某些场景优化&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">profile&lt;/span>&lt;span class="o">=&lt;/span>gpu-hq&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div></description></item><item><title>MPlayer快捷键</title><link>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0800</pubDate><guid>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="基本操作">基本操作&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>按键&lt;/th>
+ &lt;th>功能&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>空格键&lt;/td>
+ &lt;td>暂停/播放&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>左键&lt;/td>
+ &lt;td>快退10秒&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>右键&lt;/td>
+ &lt;td>快进10秒&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>上键&lt;/td>
+ &lt;td>音量增大&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>下键&lt;/td>
+ &lt;td>音量减小&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>M键&lt;/td>
+ &lt;td>静音&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>F键&lt;/td>
+ &lt;td>全屏切换&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Q键&lt;/td>
+ &lt;td>退出播放&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Python基础</title><link>/docs/cookbook/python-syntax/python%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0800</pubDate><guid>/docs/cookbook/python-syntax/python%E5%9F%BA%E7%A1%80/</guid><description>&lt;blockquote>
+&lt;p>对于基础语法的练习，可以使用在线运行的方式，例如&lt;br>
+&lt;a href="https://www.python.org/shell/">Python Shell&lt;/a>&lt;br>
+&lt;a href="https://www.online-python.com/">online-python&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;h2 id="对齐">对齐&lt;/h2>
+&lt;p>Python的格式特点是缩进对齐，优点是整齐得到了语言层面的保证，缺点是缩进多了其实容错率低，特别是Tab和空格在视觉上不容易区分。&lt;/p>
+&lt;h2 id="类型">类型&lt;/h2>
+&lt;ul>
+&lt;li>Numbers（数字）&lt;/li>
+&lt;li>String（字符串）&lt;/li>
+&lt;li>List（列表）&lt;/li>
+&lt;li>Tuple（元组）&lt;/li>
+&lt;li>Dictionary（字典）&lt;/li>
+&lt;/ul>
+&lt;h2 id="变量">变量&lt;/h2>
+&lt;p>Python的变量不需要声明，直接赋值即可。变量的类型由赋值决定。&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">x&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">5&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;hello&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="字符串">字符串&lt;/h2>
+&lt;p>单引号和双引号是一样的，三引号可以用来表示多行字符串。&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">s1&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;hello&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">s2&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">s3&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;hello
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">world&amp;#34;&amp;#34;&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;h2 id="list">list&lt;/h2>
+&lt;p>使用&lt;code>[&lt;/code>和&lt;code>]&lt;/code>来表示列表，列表可以包含不同类型的元素。&lt;/p></description></item></channel></rss>

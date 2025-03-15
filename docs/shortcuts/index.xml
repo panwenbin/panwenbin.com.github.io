@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>快捷键速查 on 潘文斌的文档馆</title><link>/docs/shortcuts/</link><description>Recent content in 快捷键速查 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/shortcuts/index.xml" rel="self" type="application/rss+xml"/><item><title>MPlayer快捷键</title><link>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0800</pubDate><guid>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="基本操作">基本操作&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>按键&lt;/th>
+ &lt;th>功能&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>空格键&lt;/td>
+ &lt;td>暂停/播放&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>左键&lt;/td>
+ &lt;td>快退10秒&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>右键&lt;/td>
+ &lt;td>快进10秒&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>上键&lt;/td>
+ &lt;td>音量增大&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>下键&lt;/td>
+ &lt;td>音量减小&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>M键&lt;/td>
+ &lt;td>静音&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>F键&lt;/td>
+ &lt;td>全屏切换&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Q键&lt;/td>
+ &lt;td>退出播放&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Mac系统快捷键</title><link>/docs/shortcuts/mac%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Fri, 20 Sep 2024 10:30:00 +0800</pubDate><guid>/docs/shortcuts/mac%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="窗口操作">窗口操作&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>快捷键&lt;/th>
+ &lt;th>操作&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>control + ⌘ + F&lt;/td>
+ &lt;td>全屏&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + Q&lt;/td>
+ &lt;td>退出程序&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + W&lt;/td>
+ &lt;td>关闭窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + M&lt;/td>
+ &lt;td>最小化程序&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + H&lt;/td>
+ &lt;td>隐藏当前窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + ⌥ + H&lt;/td>
+ &lt;td>隐藏其他所有窗口&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + +&lt;/td>
+ &lt;td>放大页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + -&lt;/td>
+ &lt;td>缩小页面&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌘ + 0&lt;/td>
+ &lt;td>恢复默认大小&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>LazyVim快捷键</title><link>/docs/shortcuts/lazyvim%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0800</pubDate><guid>/docs/shortcuts/lazyvim%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h1 id="-按键映射">⌨️ 按键映射&lt;/h1>
+&lt;p>&lt;strong>LazyVim&lt;/strong> 使用 &lt;a href="https://github.com/folke/which-key.nvim">which-key.nvim&lt;/a> 帮助你记住你的按键映射。
+按任意键，如 &lt;code>&amp;lt;space&amp;gt;&lt;/code>，你将看到一个包含所有以 &lt;code>&amp;lt;space&amp;gt;&lt;/code> 开始的按键映射的弹窗。&lt;/p>
+&lt;p>
+
+&lt;img
+ src="/211862473-1ff5ee7a-3bb9-4782-a9f6-014f0e5d4474_14133228954087041205_hu_2a7f71dba1490a5e.webp"
+ width="1088"
+ height="153"
+ decoding="async"
+ fetchpriority="auto"
+ loading="lazy"
+ alt="image"id="h-rh-i-0"
+/>&lt;/p>
+&lt;ul>
+&lt;li>默认的 &lt;code>&amp;lt;leader&amp;gt;&lt;/code> 键是 &lt;code>&amp;lt;space&amp;gt;&lt;/code>&lt;/li>
+&lt;li>默认的 &lt;code>&amp;lt;localleader&amp;gt;&lt;/code> 键是 &lt;code>\&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>模式&lt;/th>
+ &lt;th>描述&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>n&lt;/td>
+ &lt;td>Normal Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>v&lt;/td>
+ &lt;td>Visual Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>s&lt;/td>
+ &lt;td>Select Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>i&lt;/td>
+ &lt;td>Insert Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>c&lt;/td>
+ &lt;td>Command Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>x&lt;/td>
+ &lt;td>Ex Mode&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>t&lt;/td>
+ &lt;td>Terminal Mode&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;!-- keymaps:start -->
+&lt;h2 id="通用的">通用的&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>键&lt;/th>
+ &lt;th>描述&lt;/th>
+ &lt;th>模式&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-h&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>切换到左边窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-j&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>切换到下面窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-k&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>切换到上面窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-l&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>切换到右边窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-Up&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>增加窗口高度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-Down&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>降低窗口高度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-Left&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>降低窗口宽度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-Right&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>增加窗口宽度&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;A-j&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>下移&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>i&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;A-k&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>上移&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>i&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;S-h&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>前一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;S-l&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>后一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>[b&lt;/code>&lt;/td>
+ &lt;td>前一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>]b&lt;/code>&lt;/td>
+ &lt;td>后一个Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;bb&lt;/code>&lt;/td>
+ &lt;td>切换到其他Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;`&lt;/code>&lt;/td>
+ &lt;td>切换到其他Buffer&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;esc&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>退出并清除搜索高亮&lt;/td>
+ &lt;td>&lt;strong>i&lt;/strong>, &lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ur&lt;/code>&lt;/td>
+ &lt;td>重绘/清除搜索高亮 / Diff Update&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>n&lt;/code>&lt;/td>
+ &lt;td>后一个搜索结果&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>x&lt;/strong>, &lt;strong>o&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>N&lt;/code>&lt;/td>
+ &lt;td>前一个搜索结果&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>x&lt;/strong>, &lt;strong>o&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-s&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>保存文件&lt;/td>
+ &lt;td>&lt;strong>i&lt;/strong>, &lt;strong>x&lt;/strong>, &lt;strong>n&lt;/strong>, &lt;strong>s&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;K&lt;/code>&lt;/td>
+ &lt;td>Keywordprg&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;l&lt;/code>&lt;/td>
+ &lt;td>打开Lazy面板&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;fn&lt;/code>&lt;/td>
+ &lt;td>新建文件&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;xl&lt;/code>&lt;/td>
+ &lt;td>Location列表&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;xq&lt;/code>&lt;/td>
+ &lt;td>Quickfix列表&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>[q&lt;/code>&lt;/td>
+ &lt;td>前一个Quickfix&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>]q&lt;/code>&lt;/td>
+ &lt;td>后一个Quickfix&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cf&lt;/code>&lt;/td>
+ &lt;td>格式化&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cd&lt;/code>&lt;/td>
+ &lt;td>Line Diagnostics&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>]d&lt;/code>&lt;/td>
+ &lt;td>后一个Diagnostic&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>[d&lt;/code>&lt;/td>
+ &lt;td>前一个Diagnostic&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>]e&lt;/code>&lt;/td>
+ &lt;td>后一个Error&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>[e&lt;/code>&lt;/td>
+ &lt;td>前一个Error&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>]w&lt;/code>&lt;/td>
+ &lt;td>后一个Warning&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>[w&lt;/code>&lt;/td>
+ &lt;td>前一个Warning&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uf&lt;/code>&lt;/td>
+ &lt;td>开关自动格式化 (全局)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uF&lt;/code>&lt;/td>
+ &lt;td>开关自动格式化 (Buffer)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;us&lt;/code>&lt;/td>
+ &lt;td>开关拼写&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uw&lt;/code>&lt;/td>
+ &lt;td>开关折行&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uL&lt;/code>&lt;/td>
+ &lt;td>开关相对行号&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ul&lt;/code>&lt;/td>
+ &lt;td>开关行号&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ud&lt;/code>&lt;/td>
+ &lt;td>开关Diagnostics&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uc&lt;/code>&lt;/td>
+ &lt;td>开关Conceal&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uh&lt;/code>&lt;/td>
+ &lt;td>开关Inlay Hints&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;uT&lt;/code>&lt;/td>
+ &lt;td>开关Treesitter Highlight&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ub&lt;/code>&lt;/td>
+ &lt;td>开关Background&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;gg&lt;/code>&lt;/td>
+ &lt;td>Lazygit(根目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;gG&lt;/code>&lt;/td>
+ &lt;td>Lazygit(当前目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;gb&lt;/code>&lt;/td>
+ &lt;td>Git Blame Line&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;gf&lt;/code>&lt;/td>
+ &lt;td>Lazygit当前文件历史&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;qq&lt;/code>&lt;/td>
+ &lt;td>全部退出&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ui&lt;/code>&lt;/td>
+ &lt;td>Inspect Pos&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;L&lt;/code>&lt;/td>
+ &lt;td>LazyVim Changelog&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ft&lt;/code>&lt;/td>
+ &lt;td>终端(根目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;fT&lt;/code>&lt;/td>
+ &lt;td>终端(当前目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;c-/&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>终端(根目录)&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;c-_&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>which_key_ignore&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>进入普通模式&lt;/td>
+ &lt;td>&lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;C-/&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>隐藏终端&lt;/td>
+ &lt;td>&lt;strong>t&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ww&lt;/code>&lt;/td>
+ &lt;td>切到另一个窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;wd&lt;/code>&lt;/td>
+ &lt;td>删除窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;w-&lt;/code>&lt;/td>
+ &lt;td>向下分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;w|&lt;/code>&lt;/td>
+ &lt;td>向右分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;-&lt;/code>&lt;/td>
+ &lt;td>向下分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;|&lt;/code>&lt;/td>
+ &lt;td>向右分割窗口&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;l&lt;/code>&lt;/td>
+ &lt;td>最后一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;f&lt;/code>&lt;/td>
+ &lt;td>第一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;&amp;lt;tab&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>新建Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;]&lt;/code>&lt;/td>
+ &lt;td>后一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;d&lt;/code>&lt;/td>
+ &lt;td>关闭Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;&amp;lt;tab&amp;gt;[&lt;/code>&lt;/td>
+ &lt;td>前一个Tab&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="lsp">LSP&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>键&lt;/th>
+ &lt;th>描述&lt;/th>
+ &lt;th>模式&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cl&lt;/code>&lt;/td>
+ &lt;td>Lsp信息&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>gd&lt;/code>&lt;/td>
+ &lt;td>转到定义&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>gr&lt;/code>&lt;/td>
+ &lt;td>查找引用&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>gD&lt;/code>&lt;/td>
+ &lt;td>转到声明&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>gI&lt;/code>&lt;/td>
+ &lt;td>转到实现&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>gy&lt;/code>&lt;/td>
+ &lt;td>转到类型定义&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>K&lt;/code>&lt;/td>
+ &lt;td>悬停&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>gK&lt;/code>&lt;/td>
+ &lt;td>函数签名帮助&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;c-k&amp;gt;&lt;/code>&lt;/td>
+ &lt;td>函数签名帮助&lt;/td>
+ &lt;td>&lt;strong>i&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;ca&lt;/code>&lt;/td>
+ &lt;td>代码Action&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cc&lt;/code>&lt;/td>
+ &lt;td>执行Codelens&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>, &lt;strong>v&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cC&lt;/code>&lt;/td>
+ &lt;td>刷新并显示Codelens&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cA&lt;/code>&lt;/td>
+ &lt;td>Source Action&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>&amp;lt;leader&amp;gt;cr&lt;/code>&lt;/td>
+ &lt;td>重命名&lt;/td>
+ &lt;td>&lt;strong>n&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="bufferlinenvim">bufferline.nvim&lt;/h2>
+&lt;p>&lt;a href="https://github.com/akinsho/bufferline.nvim.git">bufferline.nvim&lt;/a>&lt;/p></description></item><item><title/><link>/docs/shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/shortcuts/</guid><description/></item></channel></rss>
