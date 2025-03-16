@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux软件使用 on 潘文斌的文档馆</title><link>/docs/linux-softwares/</link><description>Recent content in Linux软件使用 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/linux-softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux软件使用 on 潘文斌的文档馆</title><link>/docs/linux-softwares/</link><description>Recent content in Linux软件使用 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/linux-softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>xdotool 模拟键鼠动作</title><link>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;blockquote>
+&lt;p>xdotool可以用来在X窗口模拟键盘输入、鼠标动作，以及获取窗口信息等。类比Linux下的按键精灵。&lt;/p>&lt;/blockquote>
+&lt;h2 id="按键">按键&lt;/h2>
+&lt;p>发送按键，可以是单个按键，也可以是组合键。例如 &amp;ldquo;alt+r&amp;rdquo;, &amp;ldquo;Control_L+J&amp;rdquo;, &amp;ldquo;ctrl+alt+n&amp;rdquo;, &amp;ldquo;BackSpace&amp;rdquo;&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">xdotool key j
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 按组合键&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key ctrl+alt+n 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 按功能键F2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key F2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 按下ctrl+l，然后按下BackSpace&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key ctrl+l BackSpace &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>更细一点，可以分别控制按下和松开。&lt;/p></description></item><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
 &lt;h2 id="lazygit">lazygit&lt;/h2>
 &lt;h2 id="mutt">mutt&lt;/h2>
 &lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>

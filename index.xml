@@ -60,7 +60,29 @@ Wine更轻量，更适合运行简单的小软件；&lt;br>
 &lt;h2 id="parallels-desktop">Parallels Desktop&lt;/h2>
 &lt;blockquote>
 &lt;p>售价RMB 498/年，可以试用14天。价格很高了，但是有不少买Mac送的2年激活码，100多元闲鱼可买。&lt;br>
-使用的微软授权的Arm版Windows，性能应该是不错的，兼容性还不清楚。&lt;/p></description></item><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description>You can use blog posts for announcing product updates and features.</description></item><item><title>Resources</title><link>/docs/resources/</link><pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate><guid>/docs/resources/</guid><description>&lt;p>Link to valuable, relevant resources.&lt;/p></description></item><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
+使用的微软授权的Arm版Windows，性能应该是不错的，兼容性还不清楚。&lt;/p></description></item><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description>You can use blog posts for announcing product updates and features.</description></item><item><title>Resources</title><link>/docs/resources/</link><pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate><guid>/docs/resources/</guid><description>&lt;p>Link to valuable, relevant resources.&lt;/p></description></item><item><title>xdotool 模拟键鼠动作</title><link>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;blockquote>
+&lt;p>xdotool可以用来在X窗口模拟键盘输入、鼠标动作，以及获取窗口信息等。类比Linux下的按键精灵。&lt;/p>&lt;/blockquote>
+&lt;h2 id="按键">按键&lt;/h2>
+&lt;p>发送按键，可以是单个按键，也可以是组合键。例如 &amp;ldquo;alt+r&amp;rdquo;, &amp;ldquo;Control_L+J&amp;rdquo;, &amp;ldquo;ctrl+alt+n&amp;rdquo;, &amp;ldquo;BackSpace&amp;rdquo;&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame is-terminal not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">xdotool key j
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 按组合键&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key ctrl+alt+n 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 按功能键F2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key F2
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 按下ctrl+l，然后按下BackSpace&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key ctrl+l BackSpace &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>更细一点，可以分别控制按下和松开。&lt;/p></description></item><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
 &lt;h2 id="lazygit">lazygit&lt;/h2>
 &lt;h2 id="mutt">mutt&lt;/h2>
 &lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
@@ -124,49 +146,4 @@ Wine更轻量，更适合运行简单的小软件；&lt;br>
  &lt;td>退出播放&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Python基础</title><link>/docs/cookbook/python-syntax/python%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 03 Dec 2024 00:00:00 +0800</pubDate><guid>/docs/cookbook/python-syntax/python%E5%9F%BA%E7%A1%80/</guid><description>&lt;blockquote>
-&lt;p>对于基础语法的练习，可以使用在线运行的方式，例如&lt;br>
-&lt;a href="https://www.python.org/shell/">Python Shell&lt;/a>&lt;br>
-&lt;a href="https://www.online-python.com/">online-python&lt;/a>&lt;/p>&lt;/blockquote>
-&lt;h2 id="对齐">对齐&lt;/h2>
-&lt;p>Python的格式特点是缩进对齐，优点是整齐得到了语言层面的保证，缺点是缩进多了其实容错率低，特别是Tab和空格在视觉上不容易区分。&lt;/p>
-&lt;h2 id="类型">类型&lt;/h2>
-&lt;ul>
-&lt;li>Numbers（数字）&lt;/li>
-&lt;li>String（字符串）&lt;/li>
-&lt;li>List（列表）&lt;/li>
-&lt;li>Tuple（元组）&lt;/li>
-&lt;li>Dictionary（字典）&lt;/li>
-&lt;/ul>
-&lt;h2 id="变量">变量&lt;/h2>
-&lt;p>Python的变量不需要声明，直接赋值即可。变量的类型由赋值决定。&lt;/p>
-
-
-
-&lt;div class="expressive-code">
- &lt;figure class="frame not-content">
- &lt;figcaption class="header">
- &lt;span class="title">&lt;/span>
- &lt;/figcaption>
- &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">x&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">5&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;hello&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
- &lt;/figure>
-&lt;/div>
-&lt;h2 id="字符串">字符串&lt;/h2>
-&lt;p>单引号和双引号是一样的，三引号可以用来表示多行字符串。&lt;/p>
-
-
-
-&lt;div class="expressive-code">
- &lt;figure class="frame not-content">
- &lt;figcaption class="header">
- &lt;span class="title">&lt;/span>
- &lt;/figcaption>
- &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">s1&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;hello&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">s2&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">s3&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;hello
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">world&amp;#34;&amp;#34;&amp;#34;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
- &lt;/figure>
-&lt;/div>
-&lt;h2 id="list">list&lt;/h2>
-&lt;p>使用&lt;code>[&lt;/code>和&lt;code>]&lt;/code>来表示列表，列表可以包含不同类型的元素。&lt;/p></description></item></channel></rss>
+&lt;/table></description></item></channel></rss>
