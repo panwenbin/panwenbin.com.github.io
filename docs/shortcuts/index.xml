@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>快捷键速查 on 潘文斌的文档馆</title><link>/docs/shortcuts/</link><description>Recent content in 快捷键速查 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/shortcuts/index.xml" rel="self" type="application/rss+xml"/><item><title>MPlayer快捷键</title><link>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0800</pubDate><guid>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="基本操作">基本操作&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>快捷键速查 on 潘文斌的文档馆</title><link>/docs/shortcuts/</link><description>Recent content in 快捷键速查 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/shortcuts/index.xml" rel="self" type="application/rss+xml"/><item><title>MPlayer快捷键</title><link>/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0800</pubDate><guid>/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="基本操作">基本操作&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -40,7 +40,34 @@
  &lt;td>退出播放&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>Mac系统快捷键</title><link>/docs/shortcuts/mac%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Fri, 20 Sep 2024 10:30:00 +0800</pubDate><guid>/docs/shortcuts/mac%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="窗口操作">窗口操作&lt;/h2>
+&lt;/table></description></item><item><title>Mac系统快捷键</title><link>/shortcuts/mac%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Fri, 20 Sep 2024 10:30:00 +0800</pubDate><guid>/shortcuts/mac%E7%B3%BB%E7%BB%9F%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="按键说明">按键说明&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>按键&lt;/th>
+ &lt;th>说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>⌘&lt;/td>
+ &lt;td>Command&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌃&lt;/td>
+ &lt;td>Control&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⌥&lt;/td>
+ &lt;td>Option&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>⇧&lt;/td>
+ &lt;td>Shift&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="窗口操作">窗口操作&lt;/h2>
 &lt;table>
  &lt;thead>
  &lt;tr>
@@ -50,7 +77,7 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>control + ⌘ + F&lt;/td>
+ &lt;td>⌃ + ⌘ + F&lt;/td>
  &lt;td>全屏&lt;/td>
  &lt;/tr>
  &lt;tr>
@@ -86,7 +113,50 @@
  &lt;td>恢复默认大小&lt;/td>
  &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item><item><title>LazyVim快捷键</title><link>/docs/shortcuts/lazyvim%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0800</pubDate><guid>/docs/shortcuts/lazyvim%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h1 id="-按键映射">⌨️ 按键映射&lt;/h1>
+&lt;/table>
+&lt;h2 id="窗口分屏">窗口分屏&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>快捷键&lt;/th>
+ &lt;th>操作&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ←&lt;/td>
+ &lt;td>左侧。窗口占屏幕左半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + →&lt;/td>
+ &lt;td>右侧。窗口占屏幕右半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ↑&lt;/td>
+ &lt;td>上侧。窗口占屏幕上半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ↓&lt;/td>
+ &lt;td>下侧。窗口占屏幕下半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ⇧ + ←&lt;/td>
+ &lt;td>左侧与右侧。窗口占屏幕左半部分，另一个窗口占右半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ⇧ + →&lt;/td>
+ &lt;td>右侧与左侧。窗口占屏幕右半部分，另一个窗口占左半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ⇧ + ↑&lt;/td>
+ &lt;td>上侧与下侧。窗口占屏幕上半部分，另一个窗口占下半部分&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Fn + ⌃ + ⇧ + ↓&lt;/td>
+ &lt;td>下侧与上侧。窗口占屏幕下半部分，另一个窗口占上半部分&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>LazyVim快捷键</title><link>/shortcuts/lazyvim%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 29 Apr 2024 00:00:00 +0800</pubDate><guid>/shortcuts/lazyvim%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h1 id="-按键映射">⌨️ 按键映射&lt;/h1>
 &lt;p>&lt;strong>LazyVim&lt;/strong> 使用 &lt;a href="https://github.com/folke/which-key.nvim">which-key.nvim&lt;/a> 帮助你记住你的按键映射。
 按任意键，如 &lt;code>&amp;lt;space&amp;gt;&lt;/code>，你将看到一个包含所有以 &lt;code>&amp;lt;space&amp;gt;&lt;/code> 开始的按键映射的弹窗。&lt;/p>
 &lt;p>
@@ -598,4 +668,4 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="bufferlinenvim">bufferline.nvim&lt;/h2>
-&lt;p>&lt;a href="https://github.com/akinsho/bufferline.nvim.git">bufferline.nvim&lt;/a>&lt;/p></description></item><item><title/><link>/docs/shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/shortcuts/</guid><description/></item></channel></rss>
+&lt;p>&lt;a href="https://github.com/akinsho/bufferline.nvim.git">bufferline.nvim&lt;/a>&lt;/p></description></item><item><title/><link>/shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/shortcuts/</guid><description/></item></channel></rss>

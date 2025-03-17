@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux软件使用 on 潘文斌的文档馆</title><link>/docs/linux-softwares/</link><description>Recent content in Linux软件使用 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="/docs/linux-softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>xdotool 模拟键鼠动作</title><link>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux软件使用 on 潘文斌的文档馆</title><link>/docs/linux-softwares/</link><description>Recent content in Linux软件使用 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Thu, 20 Mar 2025 12:41:37 +0800</lastBuildDate><atom:link href="/docs/linux-softwares/index.xml" rel="self" type="application/rss+xml"/><item><title>窗口管理</title><link>/linux-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</link><pubDate>Thu, 20 Mar 2025 12:41:37 +0800</pubDate><guid>/linux-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</guid><description>&lt;h2 id="什么是窗口管理器">什么是窗口管理器&lt;/h2>
+&lt;p>窗口管理器（Windows Manager）顾名意思就是管理窗口大小、位置、层叠关系的应用。而平铺式窗口管理器将窗口自动调整大小和位置，平铺满整个屏幕。&lt;/p>
+&lt;p>这里的理念是：屏幕需要充分用来显示，那平铺满就是充分利用了，没有浪费；并且省去了大量手动调整的时间浪费。&lt;/p>
+&lt;p>相对于更绚丽的桌面，平铺式窗口管理器更注重效率，简洁。&lt;/p>
+&lt;h2 id="dwm">dwm&lt;/h2>
+&lt;p>dwm是我目前在用的，特点是非常轻量，代码量很小，只有几千行，而且是C语言写的，非常容易修改。但是配置文件直接在代码里，一些小修改也需要重新编译，不太方便。&lt;/p>
+&lt;h3 id="conky">conky&lt;/h3>
+&lt;p>conky是一个用于X窗口系统的系统监控软件，可以作为dwm的状态栏使用。
+创建配置文件&lt;code>.config/conky/conky.conf&lt;/code>&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-lua" data-lang="lua">&lt;span class="line">&lt;span class="cl">&lt;span class="n">conky.config&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">out_to_console&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">out_to_x&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">background&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">update_interval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">total_run_times&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">use_spacer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;none&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">conky.text&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">[[
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> 󱘖 ${downspeed enp3s0}/s ${upspeed enp3s0}/s  ${loadavg 1}  ${hwmon 3 temp 1}°C | $memperc% ($mem)  ${time %a %b %d %I:%M%P}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">]]&lt;/span>&lt;span class="p">;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>这里特别要说一下cpu温度的获取，先找到hwmon目录下的编号及input文件前的编号&lt;/p></description></item><item><title>xdotool 模拟键鼠动作</title><link>/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
 &lt;blockquote>
 &lt;p>xdotool可以用来在X窗口模拟键盘输入、鼠标动作，以及获取窗口信息等。类比Linux下的按键精灵。&lt;/p>&lt;/blockquote>
 &lt;h2 id="按键">按键&lt;/h2>
@@ -20,11 +50,14 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key ctrl+l BackSpace &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/figure>
 &lt;/div>
-&lt;p>更细一点，可以分别控制按下和松开。&lt;/p></description></item><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
+&lt;p>更细一点，可以分别控制按下和松开。&lt;/p></description></item><item><title>终端程序</title><link>/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
 &lt;h2 id="lazygit">lazygit&lt;/h2>
 &lt;h2 id="mutt">mutt&lt;/h2>
-&lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
-&lt;p>可以说是Linux下最强播放器，很多其他平台的播放器也是基于mpv的。&lt;/p>
+&lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>可以说是Linux下最强播放器，很多其他平台的播放器也是基于mpv的。&lt;br>
+它是一个命令行的播放器，所以整体界面非常简洁，有mplayer的风格，相比mplayer功能更强一些。操作基本也是用快捷键，快捷键也基本继承了mplayer的。&lt;/p>
+&lt;h2 id="快捷键">快捷键&lt;/h2>
+&lt;p>基本操作可以参看 &lt;a href="../../shortcuts/mplayer%e5%bf%ab%e6%8d%b7%e9%94%ae">mplayer快捷键&lt;/a>&lt;/p>
 &lt;h2 id="开启硬件加速">开启硬件加速&lt;/h2>
 &lt;p>对于Intel核心显卡，配置文件&lt;code>~/.config/mpv/mpv.conf&lt;/code>中添加如下内容：&lt;/p>
 
@@ -42,7 +75,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 可选：针对某些场景优化&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">profile&lt;/span>&lt;span class="o">=&lt;/span>gpu-hq&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/figure>
-&lt;/div></description></item><item><title>NFS Server</title><link>/docs/linux-softwares/nfs-server/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/nfs-server/</guid><description>&lt;h2 id="安装">安装&lt;/h2>
+&lt;/div></description></item><item><title>NFS Server</title><link>/linux-softwares/nfs-server/</link><pubDate>Tue, 09 Apr 2024 00:00:00 +0800</pubDate><guid>/linux-softwares/nfs-server/</guid><description>&lt;h2 id="安装">安装&lt;/h2>
 &lt;p>以debian12为例&lt;/p>
 
 
@@ -67,7 +100,7 @@
  &lt;/figcaption>
  &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mkdir -p /nfs/exports/shared&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/figure>
-&lt;/div></description></item><item><title>UxPlay 开源AirPlay服务器</title><link>/docs/linux-softwares/uxplay-%E5%BC%80%E6%BA%90airplay%E6%9C%8D%E5%8A%A1%E5%99%A8/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/uxplay-%E5%BC%80%E6%BA%90airplay%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid><description>&lt;blockquote>
+&lt;/div></description></item><item><title>UxPlay 开源AirPlay服务器</title><link>/linux-softwares/uxplay-%E5%BC%80%E6%BA%90airplay%E6%9C%8D%E5%8A%A1%E5%99%A8/</link><pubDate>Mon, 08 Apr 2024 00:00:00 +0800</pubDate><guid>/linux-softwares/uxplay-%E5%BC%80%E6%BA%90airplay%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid><description>&lt;blockquote>
 &lt;p>&lt;a href="https://github.com/FDH2/UxPlay">UxPlay&lt;/a> 是一个开源的AirPlay Server. 通过它，可以将iOS/iPadOS设备的屏幕和声音投射到Linux, macOS(Intel芯片和M芯片), 和 Unix系统上，1.57版开始也支持Windows系统。&lt;/p>&lt;/blockquote>
 &lt;h2 id="使用体验">使用体验&lt;/h2>
 &lt;p>非常丝滑，清晰度也不错，延时还比较低，还支持硬件加速，整体性能非常出色。&lt;/p>

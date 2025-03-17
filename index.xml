@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>尝试把知识整理成文档 on 潘文斌的文档馆</title><link>/</link><description>Recent content in 尝试把知识整理成文档 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>窗口管理</title><link>/docs/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</link><pubDate>Fri, 13 Sep 2024 21:15:00 +0800</pubDate><guid>/docs/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</guid><description>&lt;h2 id="原生窗口管理">原生窗口管理&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>尝试把知识整理成文档 on 潘文斌的文档馆</title><link>/</link><description>Recent content in 尝试把知识整理成文档 on 潘文斌的文档馆</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Thulite</copyright><lastBuildDate>Thu, 20 Mar 2025 12:41:37 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>窗口管理</title><link>/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</link><pubDate>Fri, 13 Sep 2024 21:15:00 +0800</pubDate><guid>/mac-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</guid><description>&lt;h2 id="原生窗口管理">原生窗口管理&lt;/h2>
 
 
 
@@ -13,14 +13,15 @@
  &lt;/figure>
 &lt;/div>
 &lt;p>总结：分屏只有左右分屏，没有上下分屏，没有四分屏
-更新：MacOS Sequoia已经支持多种分屏模式了，据说是微软专利到期了。&lt;/p>
+更新：MacOS Sequoia已经支持多种分屏模式了，据说是微软专利到期了。
+相关快捷键参看 &lt;a href="../../shortcuts/mac%e7%b3%bb%e7%bb%9f%e5%bf%ab%e6%8d%b7%e9%94%ae/#%e7%aa%97%e5%8f%a3%e5%88%86%e5%b1%8f">窗口分屏快捷键&lt;/a>&lt;/p>
 &lt;h2 id="rectangle">Rectangle&lt;/h2>
 &lt;p>开源免费的窗口管理工具，软件很小巧，功能很简单，侵入性最小。支持比较老的系统(macOS 10.11+)。&lt;br>
-常用快捷键：&lt;/p></description></item><item><title>鼠标设置</title><link>/docs/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>Mac上默认的鼠标设置是滚动方向与Windows相反的，这个设置可以在系统设置中调整。&lt;br>
+常用快捷键：&lt;/p></description></item><item><title>鼠标设置</title><link>/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/mac-softwares/%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE/</guid><description>&lt;p>Mac上默认的鼠标设置是滚动方向与Windows相反的，这个设置可以在系统设置中调整。&lt;br>
 但是触控板的方向会一起改掉，所以需要用第三方工具来调整鼠标的滚动方向。&lt;/p>
 &lt;h2 id="scroll-reverser">scroll reverser&lt;/h2>
 &lt;p>可以单独设置鼠标和触控板的滚动方向，但是不支持触控板的手势。&lt;br>
-&lt;a href="https://pilotmoon.com/scrollreverser/">官网&lt;/a>&lt;/p></description></item><item><title>运行iOS App</title><link>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</link><pubDate>Sat, 14 Sep 2024 17:20:00 +0800</pubDate><guid>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</guid><description>&lt;blockquote>
+&lt;a href="https://pilotmoon.com/scrollreverser/">官网&lt;/a>&lt;/p></description></item><item><title>运行iOS App</title><link>/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</link><pubDate>Sat, 14 Sep 2024 17:20:00 +0800</pubDate><guid>/mac-softwares/%E8%BF%90%E8%A1%8Cios-app/</guid><description>&lt;blockquote>
 &lt;p>Mac上换了Apple Silicon处理器，同为Arm架构，所以理论上时可以运行iOS App的&lt;/p>&lt;/blockquote>
 &lt;h2 id="方案">方案&lt;/h2>
 &lt;ol>
@@ -44,7 +45,7 @@
 &lt;h2 id="playcover">playcover&lt;/h2>
 &lt;p>我测试的是playcover 3.1.0, 运行原神的ipa是5.0版本，从playcover 3.0 开始，已经不需要修改SIP了。直接运行会在&amp;quot;开门&amp;quot;
 的瞬间闪退。经过搜索，加上几行hosts屏蔽一下就可以进了。
-参考：https://www.bilibili.com/video/BV1m841ePECt&lt;/p></description></item><item><title>运行Windows程序</title><link>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</link><pubDate>Tue, 17 Sep 2024 16:00:00 +0800</pubDate><guid>/docs/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</guid><description>&lt;blockquote>
+参考：https://www.bilibili.com/video/BV1m841ePECt&lt;/p></description></item><item><title>运行Windows程序</title><link>/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</link><pubDate>Tue, 17 Sep 2024 16:00:00 +0800</pubDate><guid>/mac-softwares/%E8%BF%90%E8%A1%8Cwindows%E7%A8%8B%E5%BA%8F/</guid><description>&lt;blockquote>
 &lt;p>Mac上运行Windows程序，大概有三种方法&lt;br>
 一是启动转换 Boot Camp&lt;br>
 二是使用虚拟机&lt;br>
@@ -60,7 +61,37 @@ Wine更轻量，更适合运行简单的小软件；&lt;br>
 &lt;h2 id="parallels-desktop">Parallels Desktop&lt;/h2>
 &lt;blockquote>
 &lt;p>售价RMB 498/年，可以试用14天。价格很高了，但是有不少买Mac送的2年激活码，100多元闲鱼可买。&lt;br>
-使用的微软授权的Arm版Windows，性能应该是不错的，兼容性还不清楚。&lt;/p></description></item><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description>You can use blog posts for announcing product updates and features.</description></item><item><title>Resources</title><link>/docs/resources/</link><pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate><guid>/docs/resources/</guid><description>&lt;p>Link to valuable, relevant resources.&lt;/p></description></item><item><title>xdotool 模拟键鼠动作</title><link>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+使用的微软授权的Arm版Windows，性能应该是不错的，兼容性还不清楚。&lt;/p></description></item><item><title>Example Post</title><link>/blog/example-post/</link><pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate><guid>/blog/example-post/</guid><description>You can use blog posts for announcing product updates and features.</description></item><item><title>窗口管理</title><link>/linux-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</link><pubDate>Thu, 20 Mar 2025 12:41:37 +0800</pubDate><guid>/linux-softwares/%E7%AA%97%E5%8F%A3%E7%AE%A1%E7%90%86/</guid><description>&lt;h2 id="什么是窗口管理器">什么是窗口管理器&lt;/h2>
+&lt;p>窗口管理器（Windows Manager）顾名意思就是管理窗口大小、位置、层叠关系的应用。而平铺式窗口管理器将窗口自动调整大小和位置，平铺满整个屏幕。&lt;/p>
+&lt;p>这里的理念是：屏幕需要充分用来显示，那平铺满就是充分利用了，没有浪费；并且省去了大量手动调整的时间浪费。&lt;/p>
+&lt;p>相对于更绚丽的桌面，平铺式窗口管理器更注重效率，简洁。&lt;/p>
+&lt;h2 id="dwm">dwm&lt;/h2>
+&lt;p>dwm是我目前在用的，特点是非常轻量，代码量很小，只有几千行，而且是C语言写的，非常容易修改。但是配置文件直接在代码里，一些小修改也需要重新编译，不太方便。&lt;/p>
+&lt;h3 id="conky">conky&lt;/h3>
+&lt;p>conky是一个用于X窗口系统的系统监控软件，可以作为dwm的状态栏使用。
+创建配置文件&lt;code>.config/conky/conky.conf&lt;/code>&lt;/p>
+
+
+
+&lt;div class="expressive-code">
+ &lt;figure class="frame not-content">
+ &lt;figcaption class="header">
+ &lt;span class="title">&lt;/span>
+ &lt;/figcaption>
+ &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-lua" data-lang="lua">&lt;span class="line">&lt;span class="cl">&lt;span class="n">conky.config&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">out_to_console&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">out_to_x&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">background&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kc">false&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">update_interval&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">total_run_times&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">use_spacer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;none&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">conky.text&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s">[[
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s"> 󱘖 ${downspeed enp3s0}/s ${upspeed enp3s0}/s  ${loadavg 1}  ${hwmon 3 temp 1}°C | $memperc% ($mem)  ${time %a %b %d %I:%M%P}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">]]&lt;/span>&lt;span class="p">;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+ &lt;/figure>
+&lt;/div>
+&lt;p>这里特别要说一下cpu温度的获取，先找到hwmon目录下的编号及input文件前的编号&lt;/p></description></item><item><title>Resources</title><link>/resources/</link><pubDate>Tue, 27 Feb 2024 09:30:56 +0100</pubDate><guid>/resources/</guid><description>&lt;p>Link to valuable, relevant resources.&lt;/p></description></item><item><title>xdotool 模拟键鼠动作</title><link>/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/linux-softwares/xdotool-%E6%A8%A1%E6%8B%9F%E9%94%AE%E9%BC%A0%E5%8A%A8%E4%BD%9C/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
 &lt;blockquote>
 &lt;p>xdotool可以用来在X窗口模拟键盘输入、鼠标动作，以及获取窗口信息等。类比Linux下的按键精灵。&lt;/p>&lt;/blockquote>
 &lt;h2 id="按键">按键&lt;/h2>
@@ -82,11 +113,14 @@ Wine更轻量，更适合运行简单的小软件；&lt;br>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xdotool key ctrl+l BackSpace &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/figure>
 &lt;/div>
-&lt;p>更细一点，可以分别控制按下和松开。&lt;/p></description></item><item><title>终端程序</title><link>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
+&lt;p>更细一点，可以分别控制按下和松开。&lt;/p></description></item><item><title>终端程序</title><link>/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0800</pubDate><guid>/linux-softwares/%E7%BB%88%E7%AB%AF%E7%A8%8B%E5%BA%8F/</guid><description>&lt;h2 id="neovim">neovim&lt;/h2>
 &lt;h2 id="lazygit">lazygit&lt;/h2>
 &lt;h2 id="mutt">mutt&lt;/h2>
-&lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/docs/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
-&lt;p>可以说是Linux下最强播放器，很多其他平台的播放器也是基于mpv的。&lt;/p>
+&lt;h2 id="newsboat">newsboat&lt;/h2></description></item><item><title>mpv 最强播放器</title><link>/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</link><pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate><guid>/linux-softwares/mpv-%E6%9C%80%E5%BC%BA%E6%92%AD%E6%94%BE%E5%99%A8/</guid><description>&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>可以说是Linux下最强播放器，很多其他平台的播放器也是基于mpv的。&lt;br>
+它是一个命令行的播放器，所以整体界面非常简洁，有mplayer的风格，相比mplayer功能更强一些。操作基本也是用快捷键，快捷键也基本继承了mplayer的。&lt;/p>
+&lt;h2 id="快捷键">快捷键&lt;/h2>
+&lt;p>基本操作可以参看 &lt;a href="../../shortcuts/mplayer%e5%bf%ab%e6%8d%b7%e9%94%ae">mplayer快捷键&lt;/a>&lt;/p>
 &lt;h2 id="开启硬件加速">开启硬件加速&lt;/h2>
 &lt;p>对于Intel核心显卡，配置文件&lt;code>~/.config/mpv/mpv.conf&lt;/code>中添加如下内容：&lt;/p>
 
@@ -104,46 +138,4 @@ Wine更轻量，更适合运行简单的小软件；&lt;br>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 可选：针对某些场景优化&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">profile&lt;/span>&lt;span class="o">=&lt;/span>gpu-hq&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
  &lt;/figure>
-&lt;/div></description></item><item><title>MPlayer快捷键</title><link>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0800</pubDate><guid>/docs/shortcuts/mplayer%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;h2 id="基本操作">基本操作&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>按键&lt;/th>
- &lt;th>功能&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>空格键&lt;/td>
- &lt;td>暂停/播放&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>左键&lt;/td>
- &lt;td>快退10秒&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>右键&lt;/td>
- &lt;td>快进10秒&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>上键&lt;/td>
- &lt;td>音量增大&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>下键&lt;/td>
- &lt;td>音量减小&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>M键&lt;/td>
- &lt;td>静音&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>F键&lt;/td>
- &lt;td>全屏切换&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Q键&lt;/td>
- &lt;td>退出播放&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/div></description></item></channel></rss>
